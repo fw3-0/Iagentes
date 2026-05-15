@@ -1,0 +1,100 @@
+{
+  "colorScheme": "light",
+  "fonts": [
+    {
+      "family": "Poppins",
+      "role": "body"
+    }
+  ],
+  "colors": {
+    "primary": "#039BE5",
+    "accent": "#111827",
+    "background": "#FFFFFF",
+    "textPrimary": "#919191",
+    "link": "#111827"
+  },
+  "typography": {
+    "fontFamilies": {
+      "primary": "Poppins",
+      "heading": "Poppins"
+    },
+    "fontStacks": {
+      "heading": [
+        "Poppins",
+        "sans-serif"
+      ],
+      "body": [
+        "Poppins",
+        "sans-serif"
+      ],
+      "paragraph": [
+        "Poppins"
+      ]
+    },
+    "fontSizes": {
+      "h1": "15px",
+      "h2": "15px",
+      "body": "16px"
+    }
+  },
+  "spacing": {
+    "baseUnit": 4,
+    "borderRadius": "0px"
+  },
+  "components": {
+    "input": {
+      "borderColor": "#CCCCCC",
+      "borderRadius": "0px"
+    },
+    "buttonPrimary": {
+      "background": "#919191",
+      "textColor": "#FFFFFF",
+      "borderRadius": "32px",
+      "shadow": "none"
+    },
+    "buttonSecondary": {
+      "background": "#0D0C0C",
+      "textColor": "#FFFFFF",
+      "borderRadius": "24px",
+      "shadow": "none"
+    }
+  },
+  "images": {
+    "logo": "File saved at: attached_assets/logo.webp",
+    "favicon": "https://d2u4gk28rgr5ys.cloudfront.net/assets/favicons/favicon-0a077b5d383f97430c5e8fbcc9f9c42555a386566df4d187b4136e04bb6cbfba.ico",
+    "ogImage": "File saved at: attached_assets/ogImage.webp"
+  },
+  "__framework_hints": [],
+  "__llm_logo_reasoning": {
+    "selectedIndex": 2,
+    "reasoning": "Logo #2 is the only one that visually represents 'A Provocadora' and is linked to the homepage, making it the most likely candidate for the brand logo.",
+    "confidence": 0.95
+  },
+  "__llm_button_reasoning": {
+    "primary": {
+      "index": 0,
+      "text": "Ver mais vendidos",
+      "reasoning": "Button #0 has a neutral background color (#919191) but is the only button with action-oriented text ('Ver mais vendidos') that suggests a primary call-to-action. It stands out as the most relevant for user engagement despite not being vibrant."
+    },
+    "secondary": {
+      "index": 1,
+      "text": "Aceitar cookies",
+      "reasoning": "Button #1 has a dark background color (#0D0C0C) and is distinct from the primary button. It serves a different purpose ('Aceitar cookies') which is more of a consent action rather than a primary engagement action."
+    },
+    "confidence": 0.85
+  },
+  "personality": {
+    "tone": "modern",
+    "energy": "medium",
+    "targetAudience": "young adults and tech-savvy users"
+  },
+  "designSystem": {
+    "framework": "tailwind",
+    "componentLibrary": "unknown"
+  },
+  "confidence": {
+    "buttons": 0.85,
+    "colors": 0.9,
+    "overall": 0.875
+  }
+}
